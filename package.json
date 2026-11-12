@@ -1,6 +1,6 @@
 {
   "name": "forensic-software-auditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read-only software repository inventory CLI and evidence-led audit skill with traceable coverage and prioritized remediation.",
   "author": "kathennn",
   "license": "SEE LICENSE IN LICENSE",
