@@ -1,1 +1,47 @@
-{"name":"forensic-software-auditor","version":"1.0.0","description":"Evidence-led software repository auditing with traceable coverage and remediation planning.","author":"kathennn","license":"SEE LICENSE IN LICENSE","homepage":"https://kathennn.github.io/forensic-software-auditor/","repository":{"type":"git","url":"https://github.com/kathennn/forensic-software-auditor.git"},"bugs":{"url":"https://github.com/kathennn/forensic-software-auditor/issues"},"keywords":["forensics","software-audit","repository-audit","security-review","code-quality","npx","agent-skills"],"type":"module","bin":{"forensic-software-auditor":"./bin/forensic-software-auditor.js"},"files":["bin/","skills/","plugin.json","README.md","LICENSE","index.html"],"engines":{"node":">=18"},"scripts":{"test":"node --test"}}
+{
+  "name": "forensic-software-auditor",
+  "version": "1.0.0",
+  "description": "Read-only software repository inventory CLI and evidence-led audit skill with traceable coverage and prioritized remediation.",
+  "author": "kathennn",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://kathennn.github.io/forensic-software-auditor/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kathennn/forensic-software-auditor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kathennn/forensic-software-auditor/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "audit-report",
+    "code-quality",
+    "forensics",
+    "npx",
+    "read-only",
+    "repository-audit",
+    "repository-inventory",
+    "security-audit",
+    "security-review",
+    "software-audit",
+    "static-review"
+  ],
+  "type": "module",
+  "bin": {
+    "forensic-software-auditor": "./bin/forensic-software-auditor.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "plugin.json",
+    "README.md",
+    "LICENSE",
+    "index.html"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

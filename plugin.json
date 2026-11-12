@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "forensic-software-auditor",
   "version": "0.1.0",
-  "description": "A rigorous, evidence-led workflow for comprehensive software repository audits, coverage tracking, prioritized remediation, and GitHub issue proposals.",
+  "description": "Evidence-led software repository auditing with read-only inventory, traceable file coverage, verified findings, risk prioritization, and remediation planning.",
   "author": {
     "name": "kathennn"
   },
@@ -20,7 +20,7 @@
       "interface": {
         "displayName": "Forensic Software Auditor",
         "shortDescription": "Evidence-led repository audits",
-        "longDescription": "Audit software repositories systematically across code quality, architecture, security, performance, testing, dependencies, configuration, deployment, data integrity, accessibility, UX, and documentation. Maintain a verifiable file inventory, distinguish confirmed findings from hypotheses, and produce prioritized remediation and GitHub issue proposals without modifying the project during the initial audit.",
+        "longDescription": "A structured, evidence-led workflow for reviewing software repositories. Build a read-only file inventory, track inspected and unreviewed files, assess code quality, security, architecture, performance, testing, dependencies, configuration, deployment, data integrity, accessibility, UX, and documentation. Distinguish confirmed findings from hypotheses, document limitations, and prepare prioritized remediation plans and GitHub issue proposals. The initial audit phase does not modify the target project or execute its code. Project website: https://kathennn.github.io/forensic-software-auditor/",
         "developerName": "kathennn",
         "category": "Developer tools",
         "capabilities": [
